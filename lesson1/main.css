@@ -3,7 +3,10 @@ a {
     background: yellow;
 }
 p {
-    background: aquamarine;
+    background: gray;
+    width: 400px;
+    margin: 20px;
+    padding: 5px;
 }
 li{
     background: red;
@@ -11,4 +14,10 @@ li{
 img {
     width: 300px;
     height: 400px;
+}
+.box {
+    display: flex;
+}
+.box1 {
+    display: flex;
 }
