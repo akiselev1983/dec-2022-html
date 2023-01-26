@@ -15,12 +15,33 @@
     display: flex;
     align-items: center;
 }
-.box4 {
-    width: 15%;
+.box1_right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1_left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.input {
+    width: 30%;
     height: 30px;
     background: blue;
-    margin-left: 40px;
     border-radius: 10px;
+    margin-left: 30px;
+}
+.icon {
+    width: 30%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .box2 {
     width: 50%;
@@ -34,20 +55,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    column-gap: 40px;
 }
 .block {
     width: 120px;
     height: 120px;
     background: blue;
-    position: relative;
-    top: -105px;
+    border-radius: 10px;
+    margin-bottom: 200px;
 }
-.blocks {
-    height: 120px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    column-gap: 40px;
-    position: relative;
-
+.font_icon {
+    font-size: 30px;
 }
